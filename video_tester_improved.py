@@ -5,7 +5,7 @@ from skimage.metrics import structural_similarity as ssim
 from skimage.metrics import peak_signal_noise_ratio as psnr
 import os
 import matplotlib.pyplot as plt
-from video_decoder_improved import ImprovedVideoWatermarkDecoder
+from video_decoder_dct import ImprovedVideoWatermarkDecoder
 import tempfile
 
 class ImprovedVideoWatermarkTester:
